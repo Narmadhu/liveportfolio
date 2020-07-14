@@ -8,6 +8,8 @@
   height: 200px;
   margin-bottom: 20px;
   margin-left: 50px;
+  box-shadow: 0 0 20px #7e7c7cb3;
+  border-bottom: 2px solid black;
 }
 .grid {
   display: grid;

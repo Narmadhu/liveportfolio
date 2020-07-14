@@ -5,7 +5,7 @@ function About() {
   return (
     <div id="about">
       <div className="center">
-        <h3>Who am I ?</h3>
+        <h1>Who am I ?</h1>
         <h5>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem
           atque accusantium, enim aspernatur nobis magnam qui, ullam nesciunt

@@ -21,13 +21,13 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a class="link" href="#work">
-                Work
+              <a class="link" href="#skills">
+                Skills
               </a>
             </li>
             <li>
-              <a class="link" href="#skils">
-                Skills
+              <a class="link" href="#work">
+                Work
               </a>
             </li>
 

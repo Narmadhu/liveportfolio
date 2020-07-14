@@ -1,8 +1,9 @@
 import React from "react";
 import Nav from "./page/Nav";
 import Home from "./page/Home";
-import Work from "./page/Work";
 import About from "./page/About";
+import Experience from "./page/Experience";
+import Work from "./page/Work";
 import Contact from "./page/Contact";
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Home />
       <About />
+      <Experience />
       <Work />
       <Contact />
     </div>

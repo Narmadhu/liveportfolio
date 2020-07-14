@@ -20,7 +20,7 @@ function Contact() {
             />
             <textarea
               placeholder="Message"
-              className="form-msg"
+              className="form-msg "
               cols="30"
               rows="10"
             ></textarea>
