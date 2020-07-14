@@ -3,6 +3,7 @@ import Nav from "./page/Nav";
 import Home from "./page/Home";
 import Work from "./page/Work";
 import About from "./page/About";
+import Contact from "./page/Contact";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Work />
       <About />
+      <Contact />
     </div>
   );
 }

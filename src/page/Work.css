@@ -1,3 +1,23 @@
 #work {
-  height: 100vh;
+  height: 170vh;
+}
+.center {
+  text-align: center;
+  padding: 65px 30px 30px 30px;
+}
+.container {
+  max-width: 1150px;
+  overflow: hidden;
+  margin: auto;
+  box-sizing: border-box;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+.container img {
+  width: 350px;
+  height: 350px;
+  border-radius: 2px;
 }
