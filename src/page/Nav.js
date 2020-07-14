@@ -14,14 +14,15 @@ function Nav() {
                 Home
               </a>
             </li>
-            <li>
-              <a class="link" href="#work">
-                Work
-              </a>
-            </li>
+
             <li>
               <a class="link" href="#about">
                 About
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#work">
+                Work
               </a>
             </li>
             <li>

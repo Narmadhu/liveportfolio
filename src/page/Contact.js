@@ -27,12 +27,12 @@ function Contact() {
             <button type="submit"> Send</button>
           </form>
         </div>
-        <div>
-          <h3>email</h3>
+        <div className="address">
+          <h3>Email</h3>
           <h6>nothing@gmail.com</h6>
-          <h3>phone</h3>
+          <h3>Phone</h3>
           <h6>9876543210</h6>
-          <h3>address</h3>
+          <h3>Address</h3>
           <h6>123 west, Anna nagar, Chennai</h6>
         </div>
       </div>

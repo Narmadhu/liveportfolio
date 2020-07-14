@@ -1,5 +1,6 @@
 #work {
   height: 170vh;
+  background-color: #f4f4f4;
 }
 .center {
   text-align: center;
@@ -9,14 +10,13 @@
   max-width: 1150px;
   overflow: hidden;
   margin: auto;
-  box-sizing: border-box;
 }
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
 }
-.container img {
+img {
   width: 350px;
   height: 350px;
   border-radius: 2px;
