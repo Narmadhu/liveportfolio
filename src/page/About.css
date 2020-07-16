@@ -2,6 +2,15 @@
   padding-top: 65px;
   height: 80vh;
 }
+/* Global */
+.center {
+  text-align: center;
+  padding: 65px 30px 30px 30px;
+}
+.title h2 {
+  text-transform: uppercase;
+}
+
 .box {
   background-color: #f4f4f4;
   width: 200px;

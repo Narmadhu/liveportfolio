@@ -4,8 +4,8 @@ import "./Contact.css";
 function Contact() {
   return (
     <div id="contact">
-      <div className="center">
-        <h1>Get in touch</h1>
+      <div className="center title">
+        <h2>Get in touch</h2>
       </div>
       <div className="container grid-2">
         <div>

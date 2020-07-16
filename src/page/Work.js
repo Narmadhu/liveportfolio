@@ -4,44 +4,74 @@ import "./Work.css";
 function Work() {
   return (
     <div id="work">
-      <div className="center">
-        <h1>Work</h1>
-        <p>
+      <div className="center title">
+        <h2>Work</h2>
+        <h5>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores
           nulla esse debitis officiis quaerat. Lorem ipsum dolor sit amet
           consectetur adipisicing elit.
-        </p>
+        </h5>
       </div>
       <div className="container grid-3">
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
         <div>
           <a href="/img/people.jpg">
-            <img src="/img/people.jpg" alt="" />
+            <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
+          <div className="work-name">
+            <a href="/img/people.jpg">
+              <span>Learn more</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

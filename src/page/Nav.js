@@ -1,12 +1,11 @@
 import React from "react";
-// import { Link, animateScroll as scroll } from "react-scroll";
 import "./Nav.css";
 
 function Nav() {
   return (
     <div>
       <header className="nav-scrolled">
-        <nav className="nav-bar">
+        <nav id="nav-bar">
           <h1>Logo</h1>
           <ul className="nav-links">
             <li>
@@ -21,8 +20,8 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a class="link" href="#skills">
-                Skills
+              <a class="link" href="#experience">
+                Experience
               </a>
             </li>
             <li>

@@ -4,8 +4,8 @@ import "./About.css";
 function About() {
   return (
     <div id="about">
-      <div className="center">
-        <h1>Who am I ?</h1>
+      <div className="center title">
+        <h2>Who am I ?</h2>
         <h5>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem
           atque accusantium, enim aspernatur nobis magnam qui, ullam nesciunt
@@ -18,16 +18,16 @@ function About() {
       </div>
       <div className="grid">
         <div className="box">
-          <h2>Angular</h2>
+          <h3>Angular</h3>
         </div>
         <div className="box">
-          <h2>Java</h2>
+          <h3>Java</h3>
         </div>
         <div className="box">
-          <h2>React</h2>
+          <h3>React</h3>
         </div>
         <div className="box">
-          <h2>Node</h2>
+          <h3>Node</h3>
         </div>
       </div>
     </div>

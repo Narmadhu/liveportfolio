@@ -1,4 +1,72 @@
-#skills {
-  height: 100vh;
+#experience {
   padding-top: 65px;
+}
+.experience-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience-total ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.experience-total ul::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 100%;
+  border: 1px dashed #aaaaaa;
+}
+.experience-total ul li {
+  margin: 20px 40px 70px 40px;
+  position: relative;
+}
+.experience-total ul li > span {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  content: "";
+  width: 0;
+  height: 100%;
+  border: 1px double #8a8787;
+}
+.experience-total ul li > span::before,
+.experience-total ul li > span::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid #aaaaaa;
+  border-radius: 50%;
+}
+.experience-total ul li > span::before {
+  background-color: #aaaaaa;
+  top: -5px;
+  left: -7px;
+}
+.experience-total ul li > span::after {
+  background-color: #aaaaaa;
+  bottom: -5px;
+  left: -7px;
+}
+.experience-work {
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 30px;
+  width: 500px;
+}
+.date span {
+  position: absolute;
+}
+.date span:first-child {
+  top: 106px;
+  left: -100px;
+}
+.date span:last-child {
+  top: -7px;
+  left: -100px;
 }
