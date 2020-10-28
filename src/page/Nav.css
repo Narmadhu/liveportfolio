@@ -10,8 +10,9 @@ html {
   z-index: 1;
   width: 100%;
   transition: 0.5s ease-out;
-  /* background-color: transparent; */
-  background-color: #c5c2c2;
+  background-color: transparent;
+  /* border-bottom: 0.4px solid #c5c5c5; */
+  background-color: #585858;
   color: white;
   letter-spacing: 1px;
 }

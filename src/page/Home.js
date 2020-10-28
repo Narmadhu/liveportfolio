@@ -5,10 +5,12 @@ function Home() {
   return (
     <div>
       <div id="home">
-        <div className="font">
-          <h1>Hi !</h1>
-          <h2>I am Naveen</h2>
+        <div className="font" data-aos="fade-right">
+          <h3>Hi !</h3>
+          <h3> I am Naveen </h3>
+          <h1>Web developer</h1>
         </div>
+        <img src="/img/naveen.jpg" alt="" data-aos="fade-left" />
       </div>
     </div>
   );

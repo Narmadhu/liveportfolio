@@ -1,22 +1,32 @@
 #home {
   padding-top: 72px;
-  height: 100vh;
-  background-image: url("/img/bgpic.jpg");
-  background-position: top;
+  height: 90vh;
+  /* background-image: url("/img/bgpic.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* Parallax effect */
+  background-size: cover; */
+
+  /* Parallax effect
   background-attachment: fixed;
+  /* background-color: rgb(122, 160, 160); */
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
+#home img {
+  width: 320px;
+  height: auto;
+}
 
 .font {
-  color: white;
+  /* color: white; */
   font-size: x-large;
+  font-weight: bolder;
   letter-spacing: 1px;
+}
+.font h3 {
+  display: inline;
 }

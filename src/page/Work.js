@@ -1,5 +1,8 @@
 import React from "react";
 import "./Work.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function Work() {
   return (
@@ -13,62 +16,62 @@ function Work() {
         </h5>
       </div>
       <div className="container grid-3">
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>
         </div>
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>
         </div>
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>
         </div>
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>
         </div>
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>
         </div>
-        <div>
-          <a href="/img/people.jpg">
+        <div data-aos="fade-up">
+          <a href="/img/people.jpg" target="_blank">
             <img className="work-img" src="/img/people.jpg" alt="" />
           </a>
           <div className="work-name">
-            <a href="/img/people.jpg">
+            <a href="/img/people.jpg" target="_blank">
               <span>Learn more</span>
             </a>
           </div>

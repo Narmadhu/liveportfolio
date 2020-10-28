@@ -9,29 +9,29 @@ function Nav() {
           <h1>Logo</h1>
           <ul className="nav-links">
             <li>
-              <a class="link" href="#home">
+              <a className="link" href="#home">
                 Home
               </a>
             </li>
 
             <li>
-              <a class="link" href="#about">
+              <a className="link" href="#about">
                 About
               </a>
             </li>
             <li>
-              <a class="link" href="#experience">
+              <a className="link" href="#experience">
                 Experience
               </a>
             </li>
             <li>
-              <a class="link" href="#work">
+              <a className="link" href="#work">
                 Work
               </a>
             </li>
 
             <li>
-              <a class="link" href="#contact">
+              <a className="link" href="#contact">
                 Contact
               </a>
             </li>

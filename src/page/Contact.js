@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
 function Contact() {
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    msg: "",
+  });
+
+  const updateInput = (e) => {
+    const value = e.target.value;
+    setState({
+      ...state,
+      [e.target.id]: value,
+    });
+  };
+
+  const submitForm = (e) => {
+    e.preventDefault();
+  };
   return (
     <div id="contact">
       <div className="center title">
@@ -9,21 +26,48 @@ function Contact() {
       </div>
       <div className="container grid-2">
         <div>
-          <form className="contact-form">
+          {/* {{ msg }} */}
+          <form
+            className="contact-form"
+            id="contact-form"
+            onSubmit={submitForm}
+            method="POST"
+            action="send"
+          >
             <h3>Contact form</h3>
-            <input type="text" placeholder="Name" className="form-input" />
+            <input
+              type="text"
+              placeholder="Name"
+              className="form-input"
+              id="name"
+              value={state.name}
+              onChange={updateInput}
+            />
             <input
               type="text"
               placeholder="E-mail"
-              name=""
+              id="email"
               className="form-input"
+              value={state.email}
+              onChange={updateInput}
             />
             <textarea
               placeholder="Message"
               className="form-msg "
               cols="30"
               rows="10"
+              id="msg"
+              value={state.msg}
+              onChange={updateInput}
             ></textarea>
+            <input
+              type="file"
+              placeholder="Upload file"
+              id="file"
+              className="form-input"
+              // value={state.email}
+              // onChange={updateInput}
+            />
             <button type="submit"> Send</button>
           </form>
         </div>

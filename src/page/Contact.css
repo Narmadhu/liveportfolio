@@ -1,6 +1,6 @@
 #contact {
   height: 100vh;
-  padding-top: 65px;
+  padding-top: 40px;
 }
 .grid-2 {
   display: grid;
@@ -9,7 +9,7 @@
 }
 .contact-form {
   max-width: 490px;
-  max-height: 60vh;
+  max-height: 80vh;
   padding: 20px 30px 20px 80px;
   background-color: #eeebeb;
 }

@@ -1,6 +1,6 @@
 #about {
   padding-top: 65px;
-  height: 80vh;
+  /* height: 80vh; */
 }
 /* Global */
 .center {
@@ -19,6 +19,7 @@
   margin-left: 50px;
   box-shadow: 0 0 20px #7e7c7cb3;
   border-bottom: 2px solid black;
+  text-align: center;
 }
 .grid {
   display: grid;
